@@ -14,7 +14,7 @@
 
 ---
 
-## 🧩 Features
+## Features
 
 - **Automated PubMed Search:** Just pass a query, get relevant articles (titles, abstracts, links).
 - **State-of-the-art Summarization:** Uses HuggingFace’s `t5-base` model for abstractive summarization.
@@ -24,7 +24,7 @@
 
 ---
 
-## 🛠️ Setup
+##  Setup
 
 ### 1. **Clone the Repo**
 
