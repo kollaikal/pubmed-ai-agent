@@ -61,7 +61,7 @@ LICENSE	Software license
 .gitignore	Git exclusions (cache, envs, etc)
 README.md	This documentation
 
-### 🔍 Example Output
+###  Example Output
 
 🔍 PubMed AI Agent Query: AI in cardiovascular imaging
 
@@ -71,7 +71,7 @@ README.md	This documentation
  Summary : This paper reviews the impact of AI on cardiac imaging diagnostics, highlighting accuracy and workflow improvements.
  URL     : https://pubmed.ncbi.nlm.nih.gov/12345678
  
-### 🧑‍💻 Extending This Project
+### Extending This Project
 Change models: Use t5-base, distilbart-cnn-12-6, or your favorite local transformer/LLMs.
 
 Add output formats: Save results as CSV, HTML, or PDF.
@@ -80,7 +80,7 @@ Integrate UI: Plug into Streamlit or FastAPI for interactive clinical search.
 
 Scale up: Batch queries, add error handling, or implement semantic search.
 
-### 📜 License
+###  License
 Distributed under the MIT License.
 
 ### 🤝 Contributing & Support
