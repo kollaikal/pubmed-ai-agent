@@ -1,0 +1,4 @@
+smolagents
+requests
+transformers
+torch
