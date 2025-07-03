@@ -73,6 +73,7 @@ README.md	This documentation
  Summary : This paper reviews the impact of AI on cardiac imaging diagnostics, highlighting accuracy and workflow improvements.
  URL     : https://pubmed.ncbi.nlm.nih.gov/12345678
  
+---
 ### Extending This Project
 Change models: Use t5-base, distilbart-cnn-12-6, or your favorite local transformer/LLMs.
 
@@ -82,9 +83,11 @@ Integrate UI: Plug into Streamlit or FastAPI for interactive clinical search.
 
 Scale up: Batch queries, add error handling, or implement semantic search.
 
+--
 ###  License
 Distributed under the MIT License.
 
+---
 ### 🤝 Contributing & Support
 PRs and issues are welcome!
 Open an issue or reach out for collaboration.
