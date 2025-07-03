@@ -83,7 +83,7 @@ Integrate UI: Plug into Streamlit or FastAPI for interactive clinical search.
 
 Scale up: Batch queries, add error handling, or implement semantic search.
 
---
+---
 ###  License
 Distributed under the MIT License.
 
