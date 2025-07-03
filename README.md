@@ -66,7 +66,7 @@ README.md	This documentation
 🔍 PubMed AI Agent Query: AI in cardiovascular imaging
 <img width="900" alt="Screenshot 2025-07-03 at 7 00 28 AM" src="https://github.com/user-attachments/assets/86ac4946-9503-40a1-a265-13af506829c6" />
 
-
+---
 --- Article 1 ---
  Title   : Advances in AI-Based Cardiac Imaging Diagnostics
  Abstract: Artificial intelligence is transforming...
