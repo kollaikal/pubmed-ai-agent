@@ -1,26 +1,26 @@
-#  PubMed Summarization AI Agent
+# 🧠 PubMed Summarization AI Agent
 
 [![Built with Dagger](https://img.shields.io/badge/Built%20with-Dagger-3178c6?logo=docker)](https://dagger.io/)
-[![HuggingFace Transformers](https://img.shields.io/badge/Powered%20by-Transformers-ffcc00?logo=huggingface)](https://huggingface.co/)
+[![Powered by Transformers](https://img.shields.io/badge/Powered%20by-Transformers-ffcc00?logo=huggingface)](https://huggingface.co/)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
 
 ---
 
-## 🚀 Overview
+##  Overview
 
-**PubMed Summarization AI Agent** is a fully containerized pipeline that automatically fetches the latest articles from PubMed, extracts titles and abstracts, and generates concise, human-readable summaries using a local transformer model — all orchestrated by [Dagger](https://dagger.io/) for reproducible, zero-hassle runs.
+**PubMed Summarization AI Agent** is a fully containerized, offline-friendly pipeline that fetches the latest research articles from PubMed and generates concise summaries using a local transformer model (e.g. `t5-base`). Everything is orchestrated using [Dagger](https://dagger.io/) for reproducible, zero-hassle automation.
 
-> **No external API required at runtime.** All summarization happens locally inside your container!
+>  No external API calls at runtime — everything runs locally, inside your container.
 
 ---
 
-## Features
+##  Features
 
-- **Automated PubMed Search:** Just pass a query, get relevant articles (titles, abstracts, links).
-- **State-of-the-art Summarization:** Uses HuggingFace’s `t5-base` model for abstractive summarization.
-- **Runs Anywhere:** Fully containerized with Dagger and Docker, works the same on any machine.
-- **Secure & Offline-Friendly:** No data leaves your system after the first model download.
-- **Easy to Extend:** Swap models, output formats, or add a Streamlit/FastAPI UI with minimal code.
+-  **Automated PubMed Search**: Pass a query and receive titles, abstracts, links, and AI-generated summaries.
+-  **Abstractive Summarization**: Uses HuggingFace’s `t5-base` model for high-quality summarization.
+-  **Fully Containerized**: Works the same across any environment via Docker + Dagger.
+-  **Secure & Offline-Ready**: Data never leaves your system after the initial model pull.
+-  **Easy to Extend**: Swap out models, add a FastAPI or Streamlit UI, or batch process queries.
 
 ---
 
@@ -64,7 +64,7 @@ README.md	This documentation
 ###  Example Output
 
 🔍 PubMed AI Agent Query: AI in cardiovascular imaging
-
+<img width="900" alt="Screenshot 2025-07-03 at 7 00 28 AM" src="https://github.com/user-attachments/assets/86ac4946-9503-40a1-a265-13af506829c6" />
 --- Article 1 ---
  Title   : Advances in AI-Based Cardiac Imaging Diagnostics
  Abstract: Artificial intelligence is transforming...
